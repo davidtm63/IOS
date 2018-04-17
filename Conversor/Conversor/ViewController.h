@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UITextField * tfCelsius;
+@property IBOutlet UITextField * tfFahrenheit;
+@property IBOutlet UITextField * tfKilometro;
+@property IBOutlet UITextField * tfMillas;
 
 @end
 

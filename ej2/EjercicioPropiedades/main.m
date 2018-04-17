@@ -24,29 +24,32 @@ int main(int argc, const char * argv[]) {
         //Crear persona con initConCodigo
         Persona * p2 = [[Persona alloc] initConCodigo:25 nombre:@"Juanjo" direccion:@"Casa ALain" telefono:@"66666" dni:@"123456F"];
         NSLog(@"Codigo: %d Nombre: %@ Telefono: %@ Direccion: %@ Dni: %@",p2.codigo,p2.nombre,p2.telefono,p2.direccion,p2.dni);
-        
+        //Crear cinco objetos persona con initConCodigo
         Persona * persona1 = [[Persona alloc] initConCodigo:0 nombre:@"David" direccion:@"direccion1" telefono:@"123456" dni:@"dni1"];
         Persona * persona2 = [[Persona alloc] initConCodigo:1 nombre:@"Juan" direccion:@"direccion2" telefono:@"159357" dni:@"dni2"];
         Persona * persona3 = [[Persona alloc] initConCodigo:2 nombre:@"Pepe" direccion:@"direccion3" telefono:@"456129" dni:@"dni3"];
         Persona * persona4 = [[Persona alloc] initConCodigo:3 nombre:@"Rodrigo" direccion:@"direccion4" telefono:@"785621" dni:@"dni4"];
         Persona * persona5 = [[Persona alloc] initConCodigo:4 nombre:@"Emilio" direccion:@"direccion5" telefono:@"965274" dni:@"dni5"];
-        
+        //Iniciamos un array y un diccionario
         NSMutableArray * array = [[NSMutableArray alloc] init];
         NSMutableDictionary * diccionario = [[NSMutableDictionary alloc] init];
+        //Cargamos en el array los objetos persona ya creados
         [array addObject:persona1];
         [array addObject:persona2];
         [array addObject:persona3];
         [array addObject:persona4];
         [array addObject:persona5];
+        //Presentamos en la consola el nombre
         for(int i = 0;i<array.count;i++){
             Persona *ptemp = array[i];
             NSLog(@"Nombre: %@", ptemp.nombre);
-            
+            //cargamos en el dictionary las personas, con clave "nombre"
             [diccionario setObject:ptemp forKey:ptemp.nombre];
         }
         NSLog(@"---------------");
-        for(id nombre in diccionario){
-            Persona * per = diccionario[nombre];
+        //Presentamos el telefono con el dictionary
+        for(id clave in diccionario){
+            Persona * per = diccionario[clave];
             NSLog(@"Telefono: %@", per.telefono);
         }
 

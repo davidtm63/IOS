@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"ViewDidLoad");
 }
 
 
@@ -25,5 +26,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void)viewWillAppear:(BOOL)animated{
+    NSLog(@"ViewWillAppear");
+}
+- (void)viewDidAppear:(BOOL)animated{
+    NSLog(@"ViewDidAppear");
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    NSLog(@"ViewWillDisappear");
+}
+- (void)viewDidDisappear:(BOOL)animated{
+    NSLog(@"ViewDidDisappear");
+}
 @end

@@ -40,13 +40,14 @@ int main(int argc, const char * argv[]) {
         [array addObject:persona5];
         for(int i = 0;i<array.count;i++){
             Persona *ptemp = array[i];
-            NSLog(@"%@", ptemp.nombre);
+            NSLog(@"Nombre: %@", ptemp.nombre);
             
             [diccionario setObject:ptemp forKey:ptemp.nombre];
         }
+        NSLog(@"---------------");
         for(id nombre in diccionario){
             Persona * per = diccionario[nombre];
-            NSLog(@"%@", per.telefono);
+            NSLog(@"Telefono: %@", per.telefono);
         }
 
         

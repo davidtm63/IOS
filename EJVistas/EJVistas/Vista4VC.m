@@ -41,7 +41,7 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([[segue identifier] isEqualToString:@"Ayuda"]){
         AyudaVC * ayuda = (AyudaVC *) [segue destinationViewController];
-        [ayuda setDato:@"Vengo de Vista3"];
+        [ayuda setDato:@"Vengo de Vista4"];
     }
 }
 

@@ -10,4 +10,6 @@
 
 @interface Ventana2ViewController : UIViewController
 
+@property NSString * dato;
+
 @end

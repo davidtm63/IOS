@@ -39,4 +39,9 @@
         [ventane2 setDato:@"Estoy pasando Datos"];
     }
 }
+
+-(IBAction)volverAControler:(UIStoryboard *) segue{
+    
+}
+
 @end

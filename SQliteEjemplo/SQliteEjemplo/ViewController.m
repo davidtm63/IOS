@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "ClasePrueba.h"
+#import "TestDAO.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +25,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
+-(IBAction)guardarClick:(id)sender{
+    [self insertarbd];
+}
+-(void) insertarbd{
+    NSString *_nombre2 = [_tfNombre text];
+    NSString * _pais2 = [_tfPais text];
+    
+    ClasePrueba * cp = [[ClasePrueba alloc] initConNombre:_nombre pais:_pais];
+    NSError * error;
+    TestDAO * td = [[TestDAO alloc] init];
+    [td insertarRecord:cp error:&error];
+}
 @end

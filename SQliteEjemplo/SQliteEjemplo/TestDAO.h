@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
+#import "ClasePrueba.h"
 @interface TestDAO : NSObject
 {
     @private
     sqlite3_stmt * _queryInsert;
 }
 
-
+-(BOOL) insertarRecord:(ClasePrueba *) prueba
+                 error:(NSError **)error;
 @end

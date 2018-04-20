@@ -19,4 +19,6 @@
 -(id) initConId:(NSInteger) idClasePrueba
          nombre:(NSString *) nombre
            pais:(NSString *) pais;
+
+
 @end

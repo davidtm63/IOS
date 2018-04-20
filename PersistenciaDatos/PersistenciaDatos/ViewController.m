@@ -25,5 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)cargar:(id)sender{
+    
+}
 
 @end

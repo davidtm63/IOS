@@ -16,6 +16,7 @@
 		DF45E997208A249F004C6D49 /* PersistenciaDatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E996208A249F004C6D49 /* PersistenciaDatosTests.m */; };
 		DF45E9A2208A249F004C6D49 /* PersistenciaDatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9A1208A249F004C6D49 /* PersistenciaDatosUITests.m */; };
 		DF45E9B0208A2550004C6D49 /* prop.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E9AF208A2550004C6D49 /* prop.plist */; };
+		DF45E9B3208A2C9F004C6D49 /* MonicaVD.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9B2208A2C9F004C6D49 /* MonicaVD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DF45E9A1208A249F004C6D49 /* PersistenciaDatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenciaDatosUITests.m; sourceTree = "<group>"; };
 		DF45E9A3208A249F004C6D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF45E9AF208A2550004C6D49 /* prop.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = prop.plist; sourceTree = "<group>"; };
+		DF45E9B1208A2C9F004C6D49 /* MonicaVD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonicaVD.h; sourceTree = "<group>"; };
+		DF45E9B2208A2C9F004C6D49 /* MonicaVD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonicaVD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				DF45E98B208A249F004C6D49 /* Info.plist */,
 				DF45E98C208A249F004C6D49 /* main.m */,
 				DF45E9AF208A2550004C6D49 /* prop.plist */,
+				DF45E9B1208A2C9F004C6D49 /* MonicaVD.h */,
+				DF45E9B2208A2C9F004C6D49 /* MonicaVD.m */,
 			);
 			path = PersistenciaDatos;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				DF45E982208A249D004C6D49 /* ViewController.m in Sources */,
 				DF45E98D208A249F004C6D49 /* main.m in Sources */,
+				DF45E9B3208A2C9F004C6D49 /* MonicaVD.m in Sources */,
 				DF45E97F208A249D004C6D49 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

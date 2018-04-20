@@ -26,7 +26,13 @@
 }
 
 -(IBAction)cargar:(id)sender{
-    
+    //Paso 1: recuperamos el path del fichero
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"prop" ofType:@"plist"];
+    NSDictionary * p1 = [[NSDictionary alloc] initWithContentsOfFile:path];
+    NSString * idioma = (NSString *) [p1 objectForKey:@"Idioma"];
+    _Datos.text = idioma;
+    NSNumber *items = (NSNumber *) [p1 objectForKey:@"Items"];
+    _Items.text = [items stringValue];
 }
 
 @end

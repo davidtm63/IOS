@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MonicaVD.h
 //  PersistenciaDatos
 //
 //  Created by user137296 on 4/20/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property IBOutlet UILabel * Datos;
-@property IBOutlet UILabel * Items;
-@end
+@interface MonicaVD : UIViewController
 
+@end

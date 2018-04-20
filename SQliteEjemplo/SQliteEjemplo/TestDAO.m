@@ -7,7 +7,15 @@
 //
 
 #import "TestDAO.h"
-
+#import "ClasePrueba.h"
+#import "sqliteLoad.h"
 @implementation TestDAO
+
+-(BOOL) insertarRecord:(ClasePrueba *) prueba
+                 error:(NSError **)error{
+    sqlite3 * bbdd = [[sqliteLoad init] bbdd];
+    NSString * txt = @"insert into CLASEPRUEBA (NOMBRE,PAIS) values (?,?);";
+      
+}
 
 @end

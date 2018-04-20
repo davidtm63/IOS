@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <sqlite3.h>
 @interface TestDAO : NSObject
+{
+    @private
+    sqlite3_stmt * _queryInsert;
+}
+
 
 @end

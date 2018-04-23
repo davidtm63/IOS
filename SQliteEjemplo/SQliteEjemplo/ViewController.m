@@ -28,6 +28,7 @@
 -(IBAction)guardarClick:(id)sender{
     [self insertarbd];
 }
+
 -(void) insertarbd{
     NSString *_nombre = [_tfNombre text];
     NSString * _pais = [_tfPais text];
@@ -38,5 +39,13 @@
     [td insertarRecord:cp error:&error];
     [_tfNombre setText:@""];
     [_tfPais setText:@""];
+}
+
+-(IBAction)recuperarClick:(id)sender{
+    NSError * error;
+    TestDAO * td = [[TestDAO alloc] init];
+    ClasePrueba * cp = [td recuperarRecord];
+    [_tfNombre setText:cp.nombre];
+    [_tfPais setText:cp.pais];
 }
 @end

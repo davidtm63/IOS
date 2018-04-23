@@ -17,4 +17,5 @@
 
 -(BOOL) insertarRecord:(ClasePrueba *) prueba
                  error:(NSError **)error;
+-(ClasePrueba *) recuperarRecord;
 @end

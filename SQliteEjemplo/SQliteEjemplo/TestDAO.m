@@ -39,4 +39,57 @@
     return YES;
 }
 
+-(ClasePrueba *)recuperarRecord{
+    sqliteLoad * ssql = [[sqliteLoad alloc] init];
+    sqlite3 * bbdd = [ssql bbdd];
+    NSString * txt = @"select * from CLASEPRUEBA WHERE id = ?";
+    if(_queryInsert == nil){
+        sqlite3_prepare_v2(bbdd, [txt UTF8String], -1, &_queryInsert, nil);
+    }
+    sqlite3_bind_int64(_queryInsert, 1, 1);
+    ClasePrueba * rec = nil;
+    if(sqlite3_step(_queryInsert) == SQLITE_ROW){
+        NSString * nombre = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(_queryInsert, 1)];
+        NSString * pais = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(_queryInsert, 2)];
+        rec = [[ClasePrueba alloc] initConNombre:nombre pais:pais];
+        sqlite3_reset(_queryInsert);
+    }
+    return rec;
+}
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

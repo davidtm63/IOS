@@ -19,6 +19,7 @@
 		DF45E9F7208A4EE6004C6D49 /* sqliteLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9F6208A4EE6004C6D49 /* sqliteLoad.m */; };
 		DF45E9FA208A5501004C6D49 /* TestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9F9208A5501004C6D49 /* TestDAO.m */; };
 		DF45E9FD208A563F004C6D49 /* ClasePrueba.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9FC208A563F004C6D49 /* ClasePrueba.m */; };
+		DFAB24B7208E1E6F00B2202C /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DFAB24B6208E1E6F00B2202C /* bbdd.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DF45E9F9208A5501004C6D49 /* TestDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDAO.m; sourceTree = "<group>"; };
 		DF45E9FB208A563F004C6D49 /* ClasePrueba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClasePrueba.h; sourceTree = "<group>"; };
 		DF45E9FC208A563F004C6D49 /* ClasePrueba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClasePrueba.m; sourceTree = "<group>"; };
+		DFAB24B6208E1E6F00B2202C /* bbdd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bbdd.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		DF45E9BF208A4478004C6D49 /* SQliteEjemplo */ = {
 			isa = PBXGroup;
 			children = (
+				DFAB24B6208E1E6F00B2202C /* bbdd.sqlite */,
 				DF45E9C0208A4479004C6D49 /* AppDelegate.h */,
 				DF45E9C1208A4479004C6D49 /* AppDelegate.m */,
 				DF45E9C3208A4479004C6D49 /* ViewController.h */,
@@ -265,6 +268,7 @@
 				DF45E9CD208A447A004C6D49 /* LaunchScreen.storyboard in Resources */,
 				DF45E9CA208A447A004C6D49 /* Assets.xcassets in Resources */,
 				DF45E9C8208A4479004C6D49 /* Main.storyboard in Resources */,
+				DFAB24B7208E1E6F00B2202C /* bbdd.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

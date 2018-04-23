@@ -13,7 +13,9 @@
 
 -(BOOL) insertarRecord:(ClasePrueba *) prueba
                  error:(NSError **)error{
-    sqlite3 * bbdd = [[sqliteLoad init] bbdd];
+    sqliteLoad * ssql = [[sqliteLoad alloc] init];
+    sqlite3 * bbdd = [ssql bbdd];
+//    sqlite3 * bbdd = [[sqliteLoad init] bbdd];
     NSString * txt = @"insert into CLASEPRUEBA (NOMBRE , PAIS) values (?,?);";
     //Preparamos la consulta
     if(_queryInsert == nil){

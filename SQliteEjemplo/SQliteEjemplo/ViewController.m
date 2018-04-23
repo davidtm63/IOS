@@ -29,12 +29,14 @@
     [self insertarbd];
 }
 -(void) insertarbd{
-    NSString *_nombre2 = [_tfNombre text];
-    NSString * _pais2 = [_tfPais text];
+    NSString *_nombre = [_tfNombre text];
+    NSString * _pais = [_tfPais text];
     
     ClasePrueba * cp = [[ClasePrueba alloc] initConNombre:_nombre pais:_pais];
     NSError * error;
     TestDAO * td = [[TestDAO alloc] init];
     [td insertarRecord:cp error:&error];
+    [_tfNombre setText:@""];
+    [_tfPais setText:@""];
 }
 @end

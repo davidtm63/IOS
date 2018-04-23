@@ -22,6 +22,7 @@
                                 <rect key="frame" x="139" y="82" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1so-Kz-Blu">
@@ -52,8 +53,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="tfNombre" destination="fK9-Of-J1V" id="SfC-X2-dBR"/>
-                        <outlet property="tfPais" destination="dk5-1Q-nX5" id="KUu-oB-gOJ"/>
+                        <outlet property="tfNombre" destination="fK9-Of-J1V" id="m9N-Ea-TDd"/>
+                        <outlet property="tfPais" destination="dk5-1Q-nX5" id="VmS-Tx-bdW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

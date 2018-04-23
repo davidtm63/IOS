@@ -46,7 +46,7 @@
     if(_queryInsert == nil){
         sqlite3_prepare_v2(bbdd, [txt UTF8String], -1, &_queryInsert, nil);
     }
-    sqlite3_bind_int64(_queryInsert, 1, 1);
+    sqlite3_bind_int64(_queryInsert, 1, 4);
     ClasePrueba * rec = nil;
     if(sqlite3_step(_queryInsert) == SQLITE_ROW){
         NSString * nombre = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(_queryInsert, 1)];

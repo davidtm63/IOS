@@ -19,4 +19,5 @@
                  error:(NSError **) error;
 
 -(ClaseGrupo *) recuperarRecord;
+-(NSArray *) listarPruebas: (NSError **)error;
 @end

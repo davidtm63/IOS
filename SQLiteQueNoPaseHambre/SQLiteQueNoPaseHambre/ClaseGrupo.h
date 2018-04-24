@@ -15,6 +15,7 @@
 @property NSString * pais;
 @property int year;
 
+
 -(id) initConidGrupo:(NSInteger) idGrupo
               nombre:(NSString *) nombre
               genero:(NSString *) genero

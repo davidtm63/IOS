@@ -49,6 +49,27 @@
     return rec;
 }
 
+-(NSArray *) listarPruebas:(NSError *__autoreleasing *)error{
+    sqliteLoad * ssql = [[sqliteLoad alloc] init];
+    sqlite3 * bbdd = [ssql bbdd];
+    NSString * txt = @"SELECT * FROM CLASEGRUPO";
+    if (_qureyInsert == nil){
+        sqlite3_prepare_v2(bbdd, [txt UTF8String], -1, &_qureyInsert, nil);
+    }
+    NSMutableArray * allpruebas = [[NSMutableArray alloc] init];
+    while(sqlite3_step(_qureyInsert) == SQLITE_ROW){
+        ClaseGrupo * cg = nil;
+        NSString * nombre = [NSString stringWithUTF8String:(const char *) sqlite3_column_text(_qureyInsert, 1)];
+         NSString * genero = [NSString stringWithUTF8String:(const char *) sqlite3_column_text(_qureyInsert, 2)];
+         NSString * pais = [NSString stringWithUTF8String:(const char *) sqlite3_column_text(_qureyInsert, 3)];
+         NSString * year = [NSString stringWithUTF8String:(const char *) sqlite3_column_text(_qureyInsert, 4)];
+        cg = [[ClaseGrupo alloc] initConidGrupo:sqlite3_column_int64(_qureyInsert,0) nombre:nombre genero:genero pais:pais year: [year intValue]];
+        [allpruebas addObject:cg];
+    }
+    sqlite3_reset(_qureyInsert);
+    return allpruebas;
+}
+
 @end
 
 

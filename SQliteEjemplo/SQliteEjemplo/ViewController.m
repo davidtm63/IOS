@@ -28,7 +28,9 @@
     //Asignamos los datos al DataSource
     TestDAO * td = [[TestDAO alloc] init];
     
-    [_tablaDS setPruebas:[td listarPruebas]];
+//    [_tablaDS setPruebas:[td listarPruebas]];
+    NSError * error;
+    [_tablaDS setPruebas:[td listarPruebas:&error]];
     [_tablePrueba reloadData];
 }
 

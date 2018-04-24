@@ -20,6 +20,8 @@
 		DF68BD27208E3F83002D1F88 /* ClaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DF68BD26208E3F83002D1F88 /* ClaseDAO.m */; };
 		DF68BD2A208E40C7002D1F88 /* sqliteLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DF68BD29208E40C7002D1F88 /* sqliteLoad.m */; };
 		DF68BD2C208E4E56002D1F88 /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DF68BD2B208E4E56002D1F88 /* bbdd.sqlite */; };
+		DFAB7AA0208F912D00C25C2B /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAB7A9F208F912D00C25C2B /* ViewController2.m */; };
+		DFAB7AA3208F927500C25C2B /* TablaDS.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAB7AA2208F927500C25C2B /* TablaDS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		DF68BD28208E40C7002D1F88 /* sqliteLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqliteLoad.h; sourceTree = "<group>"; };
 		DF68BD29208E40C7002D1F88 /* sqliteLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqliteLoad.m; sourceTree = "<group>"; };
 		DF68BD2B208E4E56002D1F88 /* bbdd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bbdd.sqlite; sourceTree = "<group>"; };
+		DFAB7A9E208F912D00C25C2B /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DFAB7A9F208F912D00C25C2B /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		DFAB7AA1208F927500C25C2B /* TablaDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TablaDS.h; sourceTree = "<group>"; };
+		DFAB7AA2208F927500C25C2B /* TablaDS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablaDS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 				DF68BD26208E3F83002D1F88 /* ClaseDAO.m */,
 				DF68BD28208E40C7002D1F88 /* sqliteLoad.h */,
 				DF68BD29208E40C7002D1F88 /* sqliteLoad.m */,
+				DFAB7A9E208F912D00C25C2B /* ViewController2.h */,
+				DFAB7A9F208F912D00C25C2B /* ViewController2.m */,
+				DFAB7AA1208F927500C25C2B /* TablaDS.h */,
+				DFAB7AA2208F927500C25C2B /* TablaDS.m */,
 			);
 			path = SQLiteQueNoPaseHambre;
 			sourceTree = "<group>";
@@ -293,12 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAB7AA0208F912D00C25C2B /* ViewController2.m in Sources */,
 				DF68BD24208E3BC9002D1F88 /* ClaseGrupo.m in Sources */,
 				DF68BCF2208E36A3002D1F88 /* ViewController.m in Sources */,
 				DF68BCFD208E36A5002D1F88 /* main.m in Sources */,
 				DF68BD27208E3F83002D1F88 /* ClaseDAO.m in Sources */,
 				DF68BCEF208E36A3002D1F88 /* AppDelegate.m in Sources */,
 				DF68BD2A208E40C7002D1F88 /* sqliteLoad.m in Sources */,
+				DFAB7AA3208F927500C25C2B /* TablaDS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

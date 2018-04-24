@@ -15,6 +15,5 @@
 @property IBOutlet UITextField * tfPais;
 @property IBOutlet UITextField * tfYear;
 
-
 @end
 

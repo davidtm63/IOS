@@ -14,6 +14,7 @@
 @property IBOutlet UITextField * tfGenero;
 @property IBOutlet UITextField * tfPais;
 @property IBOutlet UITextField * tfYear;
+@property IBOutlet UILabel * vacio;
 
 @end
 

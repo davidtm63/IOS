@@ -31,11 +31,17 @@
     NSString * _pais = [_tfPais text];
     int _year = [[_tfYear text] intValue];
     
+    
     ClaseGrupo * cg = [[ClaseGrupo alloc] initConNombre:_nombre genero:_genero pais:_pais year:_year];
     NSError * error;
     ClaseDAO * cd = [[ClaseDAO alloc] init];
-    [cd insertarRecord:cg error:&error];
-    
+    if([_nombre  isEqual: @""]){
+        [_vacio  setText:@"¡¡NOMBRE NECESARIO!!"];
+        
+    }else{
+        [cd insertarRecord:cg error:&error];
+
+    }
     [_tfNombre setText:@""];
     [_tfGenero setText:@""];
     [_tfPais setText:@""];

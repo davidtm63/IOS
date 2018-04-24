@@ -18,7 +18,6 @@
     }
     NSInteger fila = [indexPath row];
     ClaseGrupo * cg = [_pruebas objectAtIndex:fila];
-//    NSString * genero = [NSString stringWithFormat:@"%@",[cg genero]];
     NSString * grupo = [NSString stringWithFormat:@"%@ %@ %@ %d",[cg nombre],[cg genero],[cg pais],[cg year]];
     [[celda textLabel] setText:grupo];
     return celda;

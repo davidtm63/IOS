@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TablaDS.h"
 @interface ViewController : UIViewController
+
+{
+    TablaDS * _tablaDS;
+}
 
 @property IBOutlet UITextField * tfNombre;
 @property IBOutlet UITextField * tfPais;
+@property IBOutlet UITableView * tablePrueba;
 
 @end
 

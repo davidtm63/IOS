@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ClasePrueba.h"
 #import "TestDAO.h"
+
 @interface ViewController ()
 
 @end
@@ -18,8 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //Iniciamos el dataSource y lo vinculamos a la tabla
+    _tablaDS = [[TablaDS alloc] init];
+    [_tablePrueba setDataSource:_tablaDS];
 }
 
+-(void) viewWillAppear:(BOOL)animated{
+    //Asignamos los datos al DataSource
+    TestDAO * td = [[TestDAO alloc] init];
+    
+    [_tablaDS setPruebas:[td listarPruebas]];
+    [_tablePrueba reloadData];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

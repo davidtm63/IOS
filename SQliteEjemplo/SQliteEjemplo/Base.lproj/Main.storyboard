@@ -58,6 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="tablePrueba" destination="CQS-WV-8PN" id="Vxq-Sz-odO"/>
                         <outlet property="tfNombre" destination="fK9-Of-J1V" id="m9N-Ea-TDd"/>
                         <outlet property="tfPais" destination="dk5-1Q-nX5" id="VmS-Tx-bdW"/>
                     </connections>

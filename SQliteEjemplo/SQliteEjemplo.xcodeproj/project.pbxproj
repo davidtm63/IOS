@@ -20,6 +20,7 @@
 		DF45E9FA208A5501004C6D49 /* TestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9F9208A5501004C6D49 /* TestDAO.m */; };
 		DF45E9FD208A563F004C6D49 /* ClasePrueba.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E9FC208A563F004C6D49 /* ClasePrueba.m */; };
 		DFAB24B7208E1E6F00B2202C /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DFAB24B6208E1E6F00B2202C /* bbdd.sqlite */; };
+		DFAB7A9A208F6B3A00C25C2B /* TablaDS.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAB7A99208F6B3A00C25C2B /* TablaDS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		DF45E9FB208A563F004C6D49 /* ClasePrueba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClasePrueba.h; sourceTree = "<group>"; };
 		DF45E9FC208A563F004C6D49 /* ClasePrueba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClasePrueba.m; sourceTree = "<group>"; };
 		DFAB24B6208E1E6F00B2202C /* bbdd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bbdd.sqlite; sourceTree = "<group>"; };
+		DFAB7A98208F6B3A00C25C2B /* TablaDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TablaDS.h; sourceTree = "<group>"; };
+		DFAB7A99208F6B3A00C25C2B /* TablaDS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablaDS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				DF45E9F9208A5501004C6D49 /* TestDAO.m */,
 				DF45E9FB208A563F004C6D49 /* ClasePrueba.h */,
 				DF45E9FC208A563F004C6D49 /* ClasePrueba.m */,
+				DFAB7A98208F6B3A00C25C2B /* TablaDS.h */,
+				DFAB7A99208F6B3A00C25C2B /* TablaDS.m */,
 			);
 			path = SQliteEjemplo;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				DF45E9D0208A447A004C6D49 /* main.m in Sources */,
 				DF45E9C2208A4479004C6D49 /* AppDelegate.m in Sources */,
 				DF45E9FD208A563F004C6D49 /* ClasePrueba.m in Sources */,
+				DFAB7A9A208F6B3A00C25C2B /* TablaDS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

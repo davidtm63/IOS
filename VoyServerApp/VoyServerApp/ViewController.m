@@ -27,12 +27,14 @@
 
 -(IBAction)cargarDatos:(id)sender{
     //Primero creamos la llamada a la API
-    NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts"];
-    NSError * error;
-    NSURLRequest * request = [NSURLRequest requestWithURL:url];
-    NSHTTPURLResponse * respuesta; // Al no poner nada se esta iniciando a nil
+        NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts"];
+        NSError * error;
+        NSURLRequest * request = [NSURLRequest requestWithURL:url];
+        NSHTTPURLResponse * respuesta; // Al no poner nada se esta iniciando a nil
+    
     NSData * datos = [NSURLConnection sendSynchronousRequest:request returningResponse:&respuesta error:&error];
     NSArray * array = [NSJSONSerialization JSONObjectWithData : datos options : 0 error : nil ];
+    
     //NSMutableArray * arDatos = [[NSMutableArray alloc] init];
     for (int i = 0; i < 1;i++){
         NSDictionary * d = (NSString *) [array objectAtIndex:i];
@@ -40,4 +42,54 @@
     }
 }
 
+-(IBAction)cargarAsincrono:(id)sender{
+    NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts"];
+    NSError * error;
+    NSURLRequest * request = [NSURLRequest requestWithURL:url];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * response,NSData * data,NSError * connectionError){
+        NSArray * array = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        NSDictionary * d = (NSDictionary *) [array objectAtIndex:5];
+        [_texto setText:[d objectForKey:@"title"]];
+        NSLog(@"%@",array);
+    }];
+    
+}
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

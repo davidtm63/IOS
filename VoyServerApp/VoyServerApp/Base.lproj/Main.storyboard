@@ -41,6 +41,14 @@
                                     <action selector="cargarAsincrono:" destination="BYZ-38-t0r" eventType="touchDown" id="o3P-0o-iG9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv7-Sn-dIA">
+                                <rect key="frame" x="160" y="374" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Guardar"/>
+                                <connections>
+                                    <action selector="guardarDatos:" destination="BYZ-38-t0r" eventType="touchDown" id="he9-4y-XTw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73537338939999997" green="1" blue="0.72374504309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

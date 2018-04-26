@@ -54,7 +54,27 @@
     }];
     
 }
-
+-(IBAction)guardarDatos:(id)sender{
+    NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts"];
+    NSError * error;
+    NSString * userid = @"1";
+    NSString * idPost = @"100";
+    NSString * title = @"title";
+    NSString * body = @"body";
+    
+    NSDictionary * d = [NSDictionary dictionaryWithObjects:@[userid,title,body,idPost] forKeys:@[@"userID",@"title",@"body",@"id"]];
+    NSData * json = [NSJSONSerialization dataWithJSONObject:d options:NSJSONWritingPrettyPrinted error:&error];
+    NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:url];
+    [request setHTTPMethod:@"POST"];
+    [request setHTTPBody:json];
+    NSHTTPURLResponse * response;
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    if(error == nil && [response statusCode] == 200){
+        NSLog(@"OK");
+    }else{
+        NSLog(@"MAL");
+    }
+}
 
 @end
 

@@ -69,7 +69,7 @@
     [request setHTTPBody:json];
     NSHTTPURLResponse * response;
     [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-    if(error == nil && [response statusCode] == 200){
+    if(error == nil && [response statusCode] == 201){
         NSLog(@"OK");
     }else{
         NSLog(@"MAL");

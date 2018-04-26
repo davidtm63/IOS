@@ -27,14 +27,14 @@
 
 -(IBAction)cargarDatos:(id)sender{
     //Primero creamos la llamada a la API
-    NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts/1"];
+    NSURL * url = [NSURL URLWithString:@"https://jsonplaceholder.typicode.com/posts"];
     NSError * error;
     NSURLRequest * request = [NSURLRequest requestWithURL:url];
     NSHTTPURLResponse * respuesta; // Al no poner nada se esta iniciando a nil
     NSData * datos = [NSURLConnection sendSynchronousRequest:request returningResponse:&respuesta error:&error];
     NSArray * array = [NSJSONSerialization JSONObjectWithData : datos options : 0 error : nil ];
     //NSMutableArray * arDatos = [[NSMutableArray alloc] init];
-    for (int i = 0; i < [array count];i++){
+    for (int i = 0; i < 1;i++){
         NSDictionary * d = (NSString *) [array objectAtIndex:i];
         [_texto setText:[d objectForKey:@"title"]];
     }

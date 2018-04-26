@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3880232092110100E783EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3880222092110100E783EC /* AppDelegate.m */; };
+		DF3880262092110100E783EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3880252092110100E783EC /* ViewController.m */; };
+		DF3880292092110100E783EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3880272092110100E783EC /* Main.storyboard */; };
+		DF38802B2092110300E783EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF38802A2092110300E783EC /* Assets.xcassets */; };
+		DF38802E2092110300E783EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF38802C2092110300E783EC /* LaunchScreen.storyboard */; };
+		DF3880312092110300E783EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3880302092110300E783EC /* main.m */; };
+		DF38803B2092110300E783EC /* VoyServerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF38803A2092110300E783EC /* VoyServerAppTests.m */; };
+		DF3880462092110300E783EC /* VoyServerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3880452092110300E783EC /* VoyServerAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3880372092110300E783EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3880162092110100E783EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF38801D2092110100E783EC;
+			remoteInfo = VoyServerApp;
+		};
+		DF3880422092110300E783EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3880162092110100E783EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF38801D2092110100E783EC;
+			remoteInfo = VoyServerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF38801E2092110100E783EC /* VoyServerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoyServerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3880212092110100E783EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF3880222092110100E783EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3880242092110100E783EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF3880252092110100E783EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3880282092110100E783EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF38802A2092110300E783EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF38802D2092110300E783EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF38802F2092110300E783EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3880302092110300E783EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3880362092110300E783EC /* VoyServerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyServerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF38803A2092110300E783EC /* VoyServerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoyServerAppTests.m; sourceTree = "<group>"; };
+		DF38803C2092110300E783EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3880412092110300E783EC /* VoyServerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyServerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3880452092110300E783EC /* VoyServerAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoyServerAppUITests.m; sourceTree = "<group>"; };
+		DF3880472092110300E783EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF38801B2092110100E783EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3880332092110300E783EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38803E2092110300E783EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3880152092110100E783EC = {
+			isa = PBXGroup;
+			children = (
+				DF3880202092110100E783EC /* VoyServerApp */,
+				DF3880392092110300E783EC /* VoyServerAppTests */,
+				DF3880442092110300E783EC /* VoyServerAppUITests */,
+				DF38801F2092110100E783EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF38801F2092110100E783EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF38801E2092110100E783EC /* VoyServerApp.app */,
+				DF3880362092110300E783EC /* VoyServerAppTests.xctest */,
+				DF3880412092110300E783EC /* VoyServerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3880202092110100E783EC /* VoyServerApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF3880212092110100E783EC /* AppDelegate.h */,
+				DF3880222092110100E783EC /* AppDelegate.m */,
+				DF3880242092110100E783EC /* ViewController.h */,
+				DF3880252092110100E783EC /* ViewController.m */,
+				DF3880272092110100E783EC /* Main.storyboard */,
+				DF38802A2092110300E783EC /* Assets.xcassets */,
+				DF38802C2092110300E783EC /* LaunchScreen.storyboard */,
+				DF38802F2092110300E783EC /* Info.plist */,
+				DF3880302092110300E783EC /* main.m */,
+			);
+			path = VoyServerApp;
+			sourceTree = "<group>";
+		};
+		DF3880392092110300E783EC /* VoyServerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF38803A2092110300E783EC /* VoyServerAppTests.m */,
+				DF38803C2092110300E783EC /* Info.plist */,
+			);
+			path = VoyServerAppTests;
+			sourceTree = "<group>";
+		};
+		DF3880442092110300E783EC /* VoyServerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3880452092110300E783EC /* VoyServerAppUITests.m */,
+				DF3880472092110300E783EC /* Info.plist */,
+			);
+			path = VoyServerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF38801D2092110100E783EC /* VoyServerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF38804A2092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerApp" */;
+			buildPhases = (
+				DF38801A2092110100E783EC /* Sources */,
+				DF38801B2092110100E783EC /* Frameworks */,
+				DF38801C2092110100E783EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoyServerApp;
+			productName = VoyServerApp;
+			productReference = DF38801E2092110100E783EC /* VoyServerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3880352092110300E783EC /* VoyServerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF38804D2092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerAppTests" */;
+			buildPhases = (
+				DF3880322092110300E783EC /* Sources */,
+				DF3880332092110300E783EC /* Frameworks */,
+				DF3880342092110300E783EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3880382092110300E783EC /* PBXTargetDependency */,
+			);
+			name = VoyServerAppTests;
+			productName = VoyServerAppTests;
+			productReference = DF3880362092110300E783EC /* VoyServerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF3880402092110300E783EC /* VoyServerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3880502092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerAppUITests" */;
+			buildPhases = (
+				DF38803D2092110300E783EC /* Sources */,
+				DF38803E2092110300E783EC /* Frameworks */,
+				DF38803F2092110300E783EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3880432092110300E783EC /* PBXTargetDependency */,
+			);
+			name = VoyServerAppUITests;
+			productName = VoyServerAppUITests;
+			productReference = DF3880412092110300E783EC /* VoyServerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3880162092110100E783EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = user137296;
+				TargetAttributes = {
+					DF38801D2092110100E783EC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DF3880352092110300E783EC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF38801D2092110100E783EC;
+					};
+					DF3880402092110300E783EC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF38801D2092110100E783EC;
+					};
+				};
+			};
+			buildConfigurationList = DF3880192092110100E783EC /* Build configuration list for PBXProject "VoyServerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3880152092110100E783EC;
+			productRefGroup = DF38801F2092110100E783EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF38801D2092110100E783EC /* VoyServerApp */,
+				DF3880352092110300E783EC /* VoyServerAppTests */,
+				DF3880402092110300E783EC /* VoyServerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF38801C2092110100E783EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38802E2092110300E783EC /* LaunchScreen.storyboard in Resources */,
+				DF38802B2092110300E783EC /* Assets.xcassets in Resources */,
+				DF3880292092110100E783EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3880342092110300E783EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38803F2092110300E783EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF38801A2092110100E783EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3880262092110100E783EC /* ViewController.m in Sources */,
+				DF3880312092110300E783EC /* main.m in Sources */,
+				DF3880232092110100E783EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3880322092110300E783EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38803B2092110300E783EC /* VoyServerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38803D2092110300E783EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3880462092110300E783EC /* VoyServerAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3880382092110300E783EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF38801D2092110100E783EC /* VoyServerApp */;
+			targetProxy = DF3880372092110300E783EC /* PBXContainerItemProxy */;
+		};
+		DF3880432092110300E783EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF38801D2092110100E783EC /* VoyServerApp */;
+			targetProxy = DF3880422092110300E783EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF3880272092110100E783EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3880282092110100E783EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF38802C2092110300E783EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF38802D2092110300E783EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3880482092110300E783EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3880492092110300E783EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF38804B2092110300E783EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF38804C2092110300E783EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF38804E2092110300E783EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyServerApp.app/VoyServerApp";
+			};
+			name = Debug;
+		};
+		DF38804F2092110300E783EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyServerApp.app/VoyServerApp";
+			};
+			name = Release;
+		};
+		DF3880512092110300E783EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoyServerApp;
+			};
+			name = Debug;
+		};
+		DF3880522092110300E783EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoyServerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.VoyServerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoyServerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3880192092110100E783EC /* Build configuration list for PBXProject "VoyServerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3880482092110300E783EC /* Debug */,
+				DF3880492092110300E783EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF38804A2092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38804B2092110300E783EC /* Debug */,
+				DF38804C2092110300E783EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF38804D2092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38804E2092110300E783EC /* Debug */,
+				DF38804F2092110300E783EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3880502092110300E783EC /* Build configuration list for PBXNativeTarget "VoyServerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3880512092110300E783EC /* Debug */,
+				DF3880522092110300E783EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3880162092110100E783EC /* Project object */;
+}

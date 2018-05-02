@@ -64,21 +64,35 @@
                                 <rect key="frame" x="54" y="117" width="53" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Insertar"/>
+                                <connections>
+                                    <action selector="btnInsertarWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="eUa-FW-MSZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxI-zJ-dHK">
                                 <rect key="frame" x="156" y="117" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Modificar"/>
+                                <connections>
+                                    <action selector="btnModificarWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="Jkp-x6-C8P"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqu-Dq-QcR">
                                 <rect key="frame" x="277" y="117" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Borrar"/>
+                                <connections>
+                                    <action selector="btnBorrarWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="nIq-Jh-YkB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tfFabricante" destination="IrI-4n-Fld" id="ate-s6-r7w"/>
+                        <outlet property="tfModelo" destination="5f9-w5-2Vr" id="e0Q-vO-ZC0"/>
+                        <outlet property="tfPrecio" destination="syk-yz-9a4" id="ViQ-vF-7yR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

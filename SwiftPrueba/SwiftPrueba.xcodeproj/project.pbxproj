@@ -14,6 +14,8 @@
 		DF363869209A0159009CB4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF363867209A0159009CB4EB /* LaunchScreen.storyboard */; };
 		DF363874209A015A009CB4EB /* SwiftPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF363873209A015A009CB4EB /* SwiftPruebaTests.swift */; };
 		DF36387F209A015A009CB4EB /* SwiftPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36387E209A015A009CB4EB /* SwiftPruebaUITests.swift */; };
+		DF36388D209A025A009CB4EB /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36388C209A025A009CB4EB /* Producto.swift */; };
+		DF36388F209A0426009CB4EB /* GestorProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36388E209A0426009CB4EB /* GestorProductos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DF36387A209A015A009CB4EB /* SwiftPruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF36387E209A015A009CB4EB /* SwiftPruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPruebaUITests.swift; sourceTree = "<group>"; };
 		DF363880209A015A009CB4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF36388C209A025A009CB4EB /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		DF36388E209A0426009CB4EB /* GestorProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorProductos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DF363865209A0159009CB4EB /* Assets.xcassets */,
 				DF363867209A0159009CB4EB /* LaunchScreen.storyboard */,
 				DF36386A209A0159009CB4EB /* Info.plist */,
+				DF36388C209A025A009CB4EB /* Producto.swift */,
+				DF36388E209A0426009CB4EB /* GestorProductos.swift */,
 			);
 			path = SwiftPrueba;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF36388D209A025A009CB4EB /* Producto.swift in Sources */,
 				DF363861209A0153009CB4EB /* ViewController.swift in Sources */,
 				DF36385F209A0153009CB4EB /* AppDelegate.swift in Sources */,
+				DF36388F209A0426009CB4EB /* GestorProductos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

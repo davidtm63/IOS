@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFFA6A85209B56D900E7910F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6A84209B56D900E7910F /* AppDelegate.m */; };
+		DFFA6A88209B56D900E7910F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6A87209B56D900E7910F /* ViewController.m */; };
+		DFFA6A8B209B56D900E7910F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6A89209B56D900E7910F /* Main.storyboard */; };
+		DFFA6A8D209B56DC00E7910F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6A8C209B56DC00E7910F /* Assets.xcassets */; };
+		DFFA6A90209B56DC00E7910F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA6A8E209B56DC00E7910F /* LaunchScreen.storyboard */; };
+		DFFA6A93209B56DC00E7910F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6A92209B56DC00E7910F /* main.m */; };
+		DFFA6A9D209B56DC00E7910F /* TutoriaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6A9C209B56DC00E7910F /* TutoriaAppTests.m */; };
+		DFFA6AA8209B56DC00E7910F /* TutoriaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6AA7209B56DC00E7910F /* TutoriaAppUITests.m */; };
+		DFFA6AB7209B5B3600E7910F /* Gimnasio.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6AB6209B5B3600E7910F /* Gimnasio.m */; };
+		DFFA6ABA209B5D4000E7910F /* StoreGym.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6AB9209B5D4000E7910F /* StoreGym.m */; };
+		DFFA6ABD209B5FDC00E7910F /* TablaGymDS.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6ABC209B5FDC00E7910F /* TablaGymDS.m */; };
+		DFFA6AC0209B678300E7910F /* DetalleGymViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA6ABF209B678300E7910F /* DetalleGymViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFFA6A99209B56DC00E7910F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFA6A78209B56D900E7910F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFA6A7F209B56D900E7910F;
+			remoteInfo = TutoriaApp;
+		};
+		DFFA6AA4209B56DC00E7910F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFA6A78209B56D900E7910F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFA6A7F209B56D900E7910F;
+			remoteInfo = TutoriaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFFA6A80209B56D900E7910F /* TutoriaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutoriaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFA6A83209B56D900E7910F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFA6A84209B56D900E7910F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFFA6A86209B56D900E7910F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFFA6A87209B56D900E7910F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFFA6A8A209B56D900E7910F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFFA6A8C209B56DC00E7910F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFFA6A8F209B56DC00E7910F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFFA6A91209B56DC00E7910F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFA6A92209B56DC00E7910F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFA6A98209B56DC00E7910F /* TutoriaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutoriaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFA6A9C209B56DC00E7910F /* TutoriaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutoriaAppTests.m; sourceTree = "<group>"; };
+		DFFA6A9E209B56DC00E7910F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFA6AA3209B56DC00E7910F /* TutoriaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutoriaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFA6AA7209B56DC00E7910F /* TutoriaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutoriaAppUITests.m; sourceTree = "<group>"; };
+		DFFA6AA9209B56DC00E7910F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFA6AB5209B5B3600E7910F /* Gimnasio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gimnasio.h; sourceTree = "<group>"; };
+		DFFA6AB6209B5B3600E7910F /* Gimnasio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gimnasio.m; sourceTree = "<group>"; };
+		DFFA6AB8209B5D4000E7910F /* StoreGym.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreGym.h; sourceTree = "<group>"; };
+		DFFA6AB9209B5D4000E7910F /* StoreGym.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreGym.m; sourceTree = "<group>"; };
+		DFFA6ABB209B5FDC00E7910F /* TablaGymDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TablaGymDS.h; sourceTree = "<group>"; };
+		DFFA6ABC209B5FDC00E7910F /* TablaGymDS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablaGymDS.m; sourceTree = "<group>"; };
+		DFFA6ABE209B678300E7910F /* DetalleGymViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetalleGymViewController.h; sourceTree = "<group>"; };
+		DFFA6ABF209B678300E7910F /* DetalleGymViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetalleGymViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFA6A7D209B56D900E7910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6A95209B56DC00E7910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6AA0209B56DC00E7910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFA6A77209B56D900E7910F = {
+			isa = PBXGroup;
+			children = (
+				DFFA6AB5209B5B3600E7910F /* Gimnasio.h */,
+				DFFA6AB6209B5B3600E7910F /* Gimnasio.m */,
+				DFFA6AB8209B5D4000E7910F /* StoreGym.h */,
+				DFFA6AB9209B5D4000E7910F /* StoreGym.m */,
+				DFFA6A82209B56D900E7910F /* TutoriaApp */,
+				DFFA6A9B209B56DC00E7910F /* TutoriaAppTests */,
+				DFFA6AA6209B56DC00E7910F /* TutoriaAppUITests */,
+				DFFA6A81209B56D900E7910F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFA6A81209B56D900E7910F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA6A80209B56D900E7910F /* TutoriaApp.app */,
+				DFFA6A98209B56DC00E7910F /* TutoriaAppTests.xctest */,
+				DFFA6AA3209B56DC00E7910F /* TutoriaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFA6A82209B56D900E7910F /* TutoriaApp */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA6A83209B56D900E7910F /* AppDelegate.h */,
+				DFFA6A84209B56D900E7910F /* AppDelegate.m */,
+				DFFA6A86209B56D900E7910F /* ViewController.h */,
+				DFFA6A87209B56D900E7910F /* ViewController.m */,
+				DFFA6A89209B56D900E7910F /* Main.storyboard */,
+				DFFA6A8C209B56DC00E7910F /* Assets.xcassets */,
+				DFFA6A8E209B56DC00E7910F /* LaunchScreen.storyboard */,
+				DFFA6A91209B56DC00E7910F /* Info.plist */,
+				DFFA6A92209B56DC00E7910F /* main.m */,
+				DFFA6ABB209B5FDC00E7910F /* TablaGymDS.h */,
+				DFFA6ABC209B5FDC00E7910F /* TablaGymDS.m */,
+				DFFA6ABE209B678300E7910F /* DetalleGymViewController.h */,
+				DFFA6ABF209B678300E7910F /* DetalleGymViewController.m */,
+			);
+			path = TutoriaApp;
+			sourceTree = "<group>";
+		};
+		DFFA6A9B209B56DC00E7910F /* TutoriaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA6A9C209B56DC00E7910F /* TutoriaAppTests.m */,
+				DFFA6A9E209B56DC00E7910F /* Info.plist */,
+			);
+			path = TutoriaAppTests;
+			sourceTree = "<group>";
+		};
+		DFFA6AA6209B56DC00E7910F /* TutoriaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA6AA7209B56DC00E7910F /* TutoriaAppUITests.m */,
+				DFFA6AA9209B56DC00E7910F /* Info.plist */,
+			);
+			path = TutoriaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFA6A7F209B56D900E7910F /* TutoriaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFA6AAC209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaApp" */;
+			buildPhases = (
+				DFFA6A7C209B56D900E7910F /* Sources */,
+				DFFA6A7D209B56D900E7910F /* Frameworks */,
+				DFFA6A7E209B56D900E7910F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutoriaApp;
+			productName = TutoriaApp;
+			productReference = DFFA6A80209B56D900E7910F /* TutoriaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFFA6A97209B56DC00E7910F /* TutoriaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFA6AAF209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaAppTests" */;
+			buildPhases = (
+				DFFA6A94209B56DC00E7910F /* Sources */,
+				DFFA6A95209B56DC00E7910F /* Frameworks */,
+				DFFA6A96209B56DC00E7910F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFA6A9A209B56DC00E7910F /* PBXTargetDependency */,
+			);
+			name = TutoriaAppTests;
+			productName = TutoriaAppTests;
+			productReference = DFFA6A98209B56DC00E7910F /* TutoriaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFFA6AA2209B56DC00E7910F /* TutoriaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFA6AB2209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaAppUITests" */;
+			buildPhases = (
+				DFFA6A9F209B56DC00E7910F /* Sources */,
+				DFFA6AA0209B56DC00E7910F /* Frameworks */,
+				DFFA6AA1209B56DC00E7910F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFA6AA5209B56DC00E7910F /* PBXTargetDependency */,
+			);
+			name = TutoriaAppUITests;
+			productName = TutoriaAppUITests;
+			productReference = DFFA6AA3209B56DC00E7910F /* TutoriaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFA6A78209B56D900E7910F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = user137296;
+				TargetAttributes = {
+					DFFA6A7F209B56D900E7910F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DFFA6A97209B56DC00E7910F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DFFA6A7F209B56D900E7910F;
+					};
+					DFFA6AA2209B56DC00E7910F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DFFA6A7F209B56D900E7910F;
+					};
+				};
+			};
+			buildConfigurationList = DFFA6A7B209B56D900E7910F /* Build configuration list for PBXProject "TutoriaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFA6A77209B56D900E7910F;
+			productRefGroup = DFFA6A81209B56D900E7910F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFA6A7F209B56D900E7910F /* TutoriaApp */,
+				DFFA6A97209B56DC00E7910F /* TutoriaAppTests */,
+				DFFA6AA2209B56DC00E7910F /* TutoriaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFA6A7E209B56D900E7910F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFA6A90209B56DC00E7910F /* LaunchScreen.storyboard in Resources */,
+				DFFA6A8D209B56DC00E7910F /* Assets.xcassets in Resources */,
+				DFFA6A8B209B56D900E7910F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6A96209B56DC00E7910F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6AA1209B56DC00E7910F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFA6A7C209B56D900E7910F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFA6AB7209B5B3600E7910F /* Gimnasio.m in Sources */,
+				DFFA6AC0209B678300E7910F /* DetalleGymViewController.m in Sources */,
+				DFFA6A88209B56D900E7910F /* ViewController.m in Sources */,
+				DFFA6ABA209B5D4000E7910F /* StoreGym.m in Sources */,
+				DFFA6A93209B56DC00E7910F /* main.m in Sources */,
+				DFFA6A85209B56D900E7910F /* AppDelegate.m in Sources */,
+				DFFA6ABD209B5FDC00E7910F /* TablaGymDS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6A94209B56DC00E7910F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFA6A9D209B56DC00E7910F /* TutoriaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA6A9F209B56DC00E7910F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFA6AA8209B56DC00E7910F /* TutoriaAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFA6A9A209B56DC00E7910F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFA6A7F209B56D900E7910F /* TutoriaApp */;
+			targetProxy = DFFA6A99209B56DC00E7910F /* PBXContainerItemProxy */;
+		};
+		DFFA6AA5209B56DC00E7910F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFA6A7F209B56D900E7910F /* TutoriaApp */;
+			targetProxy = DFFA6AA4209B56DC00E7910F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFFA6A89209B56D900E7910F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFA6A8A209B56D900E7910F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFA6A8E209B56DC00E7910F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFA6A8F209B56DC00E7910F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFA6AAA209B56DC00E7910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFFA6AAB209B56DC00E7910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFA6AAD209B56DC00E7910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFFA6AAE209B56DC00E7910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFFA6AB0209B56DC00E7910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutoriaApp.app/TutoriaApp";
+			};
+			name = Debug;
+		};
+		DFFA6AB1209B56DC00E7910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutoriaApp.app/TutoriaApp";
+			};
+			name = Release;
+		};
+		DFFA6AB3209B56DC00E7910F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TutoriaApp;
+			};
+			name = Debug;
+		};
+		DFFA6AB4209B56DC00E7910F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TutoriaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sorigue.TutoriaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TutoriaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFA6A7B209B56D900E7910F /* Build configuration list for PBXProject "TutoriaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFA6AAA209B56DC00E7910F /* Debug */,
+				DFFA6AAB209B56DC00E7910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFA6AAC209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFA6AAD209B56DC00E7910F /* Debug */,
+				DFFA6AAE209B56DC00E7910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFA6AAF209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFA6AB0209B56DC00E7910F /* Debug */,
+				DFFA6AB1209B56DC00E7910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFA6AB2209B56DC00E7910F /* Build configuration list for PBXNativeTarget "TutoriaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFA6AB3209B56DC00E7910F /* Debug */,
+				DFFA6AB4209B56DC00E7910F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFA6A78209B56D900E7910F /* Project object */;
+}

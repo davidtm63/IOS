@@ -23,15 +23,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void) viewWillAppear:(BOOL)animated{
+    _labelNombre.text = _gimnasio.nombre;
+    _labelCiudad.text = _gimnasio.ciudad;
+    _labelCalle.text = _gimnasio.calle;
+    _labelCapacidad.text = [NSString stringWithFormat:@"%d" ,_gimnasio.capacidad ];
+    
 }
-*/
 
 @end

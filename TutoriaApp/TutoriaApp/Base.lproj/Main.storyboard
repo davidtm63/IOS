@@ -34,7 +34,7 @@
                     </view>
                     <connections>
                         <outlet property="tableGimnasios" destination="kn1-cz-wWc" id="ixJ-JK-YRS"/>
-                        <segue destination="uhz-xr-hdV" kind="show" identifier="VerDetalle" id="DsF-Th-jr0"/>
+                        <segue destination="uhz-xr-hdV" kind="show" identifier="verDetalle" id="DsF-Th-jr0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -49,45 +49,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6x-iU-RLM">
+                                <rect key="frame" x="159" y="388" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="VOLVER"/>
+                                <connections>
+                                    <segue destination="KNH-Du-LqY" kind="unwind" unwindAction="ClickVolver:" id="svn-wj-hVL"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmB-Sw-SA5">
-                                <rect key="frame" x="141" y="80" width="92" height="21"/>
+                                <rect key="frame" x="65" y="76" width="256" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ciudad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7y4-jY-fOx">
-                                <rect key="frame" x="141" y="139" width="92" height="30"/>
+                                <rect key="frame" x="65" y="135" width="256" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capacidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wh-TW-rHg">
-                                <rect key="frame" x="128" y="287" width="118" height="30"/>
+                                <rect key="frame" x="65" y="262" width="256" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viS-vz-aMM">
-                                <rect key="frame" x="157" y="212" width="61" height="30"/>
+                                <rect key="frame" x="65" y="200" width="256" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6x-iU-RLM">
-                                <rect key="frame" x="159" y="388" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="VOLVER"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.68188467009999998" blue="0.39907478740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ia1-zn-yL3"/>
                     </view>
+                    <connections>
+                        <outlet property="labelCalle" destination="viS-vz-aMM" id="ZJM-mX-qoa"/>
+                        <outlet property="labelCapacidad" destination="7wh-TW-rHg" id="2he-sq-DdO"/>
+                        <outlet property="labelCiudad" destination="7y4-jY-fOx" id="RPx-bz-EcE"/>
+                        <outlet property="labelNombre" destination="pmB-Sw-SA5" id="t3p-m0-0tJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWO-Jl-k3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KNH-Du-LqY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="469.60000000000002" y="116.49175412293854"/>
         </scene>

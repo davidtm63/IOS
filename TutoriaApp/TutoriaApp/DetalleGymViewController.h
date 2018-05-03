@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Gimnasio.h"
 @interface DetalleGymViewController : UIViewController
 
-
+@property Gimnasio * gimnasio;
+@property IBOutlet UILabel * labelNombre;
+@property IBOutlet UILabel * labelCiudad;
+@property IBOutlet UILabel * labelCalle;
+@property IBOutlet UILabel * labelCapacidad;
 
 @end

@@ -36,9 +36,13 @@
     if([[segue identifier] isEqualToString:@"verDetalle"]){
         if([sender isKindOfClass:[Gimnasio class]]){
             DetalleGymViewController * dg = (DetalleGymViewController *) [segue destinationViewController];
-            [dg setGimnasio : (Gimnasio *) sender];
+            [dg setGimnasio:(Gimnasio *) sender];
         }
     }
+}
+
+-(IBAction)ClickVolver:(UIStoryboardSegue *) segue{
+    
 }
 
 - (void)didReceiveMemoryWarning {

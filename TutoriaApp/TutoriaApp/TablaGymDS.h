@@ -16,4 +16,5 @@
 -(Gimnasio *) gimnasioAT : (NSInteger) pos;
     
 
+
 @end

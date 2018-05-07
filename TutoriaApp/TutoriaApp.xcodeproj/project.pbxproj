@@ -93,10 +93,6 @@
 		DFFA6A77209B56D900E7910F = {
 			isa = PBXGroup;
 			children = (
-				DFFA6AB5209B5B3600E7910F /* Gimnasio.h */,
-				DFFA6AB6209B5B3600E7910F /* Gimnasio.m */,
-				DFFA6AB8209B5D4000E7910F /* StoreGym.h */,
-				DFFA6AB9209B5D4000E7910F /* StoreGym.m */,
 				DFFA6A82209B56D900E7910F /* TutoriaApp */,
 				DFFA6A9B209B56DC00E7910F /* TutoriaAppTests */,
 				DFFA6AA6209B56DC00E7910F /* TutoriaAppUITests */,
@@ -130,6 +126,10 @@
 				DFFA6ABC209B5FDC00E7910F /* TablaGymDS.m */,
 				DFFA6ABE209B678300E7910F /* DetalleGymViewController.h */,
 				DFFA6ABF209B678300E7910F /* DetalleGymViewController.m */,
+				DFFA6AB5209B5B3600E7910F /* Gimnasio.h */,
+				DFFA6AB6209B5B3600E7910F /* Gimnasio.m */,
+				DFFA6AB8209B5D4000E7910F /* StoreGym.h */,
+				DFFA6AB9209B5D4000E7910F /* StoreGym.m */,
 			);
 			path = TutoriaApp;
 			sourceTree = "<group>";
